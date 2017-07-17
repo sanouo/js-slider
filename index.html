@@ -10,6 +10,7 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
 
+        <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
         <link rel="icon" href="favicon.ico">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
@@ -23,14 +24,32 @@
 
         <!-- Add your site or application content here -->
 
-    
+      <header>
+        <h1>Slider</h1>
+      </header>
 
-      <section class="containers">
-        <img class="picture" src="img/tempete.jpg" alt="ciel et mer">
-        <img class="picture" src="img/ciel.jpg" alt="ciel">
-        <img class="picture" src="img/lune.jpg" alt="lune">
-        <img class="picture" src="img/montagne.jpg" alt="montagne">
+      <section  class="containers">
+
+          <img class="slides" src="img/1.jpg" alt="ciel et mer">
+
+
+
+          <img class="slides" src="img/2.jpg" alt="ciel">
+
+
+
+          <img class="slides" src="img/3.jpg" alt="lune">
+
+
+        <figure class="carousel-item active">
+          <img class="slides" src="img/4.jpg" alt="montagne">
+          <figcaption class="carousel-caption">#MONTAGNE</figcaption>
+        </figure>
+
+        <button  class="btn" onclick="plusIndex(-1)" id="btn1" type="button" name="button">&#10094;</button>
+        <button  class="btn bout" id="btn2" onclick="plusIndex(1)"  type="button" name="button">&#10095;</button>
       </section>
+
 
 
 
