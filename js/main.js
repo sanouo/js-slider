@@ -8,7 +8,6 @@ showImage(index);
 showImage(1);
 
 function showImage(n){
-var i;
 var slide = document.getElementsByClassName("slides");
 if(n > slide.length){ index = 1};
 if(n < 1){ index = slide.length};
